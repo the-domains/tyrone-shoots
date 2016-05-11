@@ -1,14 +1,26 @@
-layout_spectrum: 0.9185157
 color:
   saturation: 0.5938619
-  lightness: 0.7371788
   brandStrength: 0.7484517
+  rhythmicContrast: 0.7928161
   brandColors:
     - '#FAF3E6'
     - '#F2B380'
     - '#1F0D03'
     - '#5C4A3A'
     - '#FF6565'
-  rhythmicContrast: 0.7928161
+  lightness: 0.7371788
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.9185157
 typography_spectrum: 0.1228658
 name: 'Tyrone Shoots '
